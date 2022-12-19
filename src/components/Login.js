@@ -1,11 +1,7 @@
 import styled from "styled-components";
 
 const Login= (props)=>{
-    return (
-        <Container>
-            <div>yarn baba</div>
-        </Container>
-    )
+    return <div>LOGIN</div>
 };
 const Container=styled.section`
 overflow:hidden;
