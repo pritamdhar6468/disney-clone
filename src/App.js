@@ -1,5 +1,5 @@
 
-import { BrowserRouter as Router,Routes ,Route} from 'react-router-dom';
+import { BrowserRouter ,Routes ,Route} from 'react-router-dom';
 import Login from "./components/Login"
 import './App.css';
 
@@ -7,13 +7,13 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Router>
+      <BrowserRouter>
         <Routes>
           <Route exact path="/" >
             <Login />
           </Route>
         </Routes>
-      </Router>
+      </BrowserRouter>
     </div>
   );
 }
